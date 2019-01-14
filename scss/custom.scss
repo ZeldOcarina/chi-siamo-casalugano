@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700,900');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 700 !important;
+}
+
+h4, h5 {
+    font-weight: 500 !important;
+}
+
+h3 {
+    line-height: 2.5;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+h5 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
+//header section
+
+.big-header {
+    background-image: url("../images/header-image.jpg");
+    background-size: cover;
+    padding: 15%;
+}
+
+// immobili venduti
+
+.immobili-venduti {
+    width: 100%;
+}
+
+//team section
+
+.team-title {
+    padding: 5%;
+}
+
+.grey {
+    background-color: #b0b0b0;
+}
+
+.team-picture {
+    border-radius: 100%;
+    width: auto;
+    max-width: 40%
+}

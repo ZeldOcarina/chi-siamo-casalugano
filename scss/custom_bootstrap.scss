@@ -1,0 +1,7 @@
+// override default colors and import bootstrap
+$theme-colors: (
+  "danger": #cf171f
+);
+
+@import "../bootstrap/scss/bootstrap"
+
