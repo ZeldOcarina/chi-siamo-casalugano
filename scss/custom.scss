@@ -59,10 +59,36 @@ p {
     max-width: 40%
 }
 
-.cta {
-    padding: 10rem;
+// Medium devices (tablets, 768px and up)
+@media (max-width: 576px) {
+    p {
+        font-size: 1.2rem;
+    } 
+
+    .big-header h1, h2, h3, h4, h2 {
+        font-size: 2rem !important;
+    };
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    .cta {
+        padding: 2rem;
+    }
+
+    .team-picture {
+        max-width: 65% !important;
+    }
+
 }
 
-.cta-text {
-    line-height: 1.5;
+@media (min-width: 576px) {
+    .cta {
+        padding: 10rem;
+    }
+    
+    .cta-text {
+        line-height: 1.5;
+    }
 }

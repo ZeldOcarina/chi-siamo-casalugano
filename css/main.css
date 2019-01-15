@@ -7518,10 +7518,26 @@ p {
   width: auto;
   max-width: 40%; }
 
-.cta {
-  padding: 10rem; }
+@media (max-width: 576px) {
+  p {
+    font-size: 1.2rem; }
 
-.cta-text {
-  line-height: 1.5; }
+  .big-header h1, h2, h3, h4, h2 {
+    font-size: 2rem !important; }
+
+  h5 {
+    font-size: 1.5rem; }
+
+  .cta {
+    padding: 2rem; }
+
+  .team-picture {
+    max-width: 65% !important; } }
+@media (min-width: 576px) {
+  .cta {
+    padding: 10rem; }
+
+  .cta-text {
+    line-height: 1.5; } }
 
 /*# sourceMappingURL=main.css.map */
