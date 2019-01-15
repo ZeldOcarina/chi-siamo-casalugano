@@ -7508,10 +7508,13 @@ p {
   width: 100%; }
 
 .team-title {
-  padding: 5%; }
+  padding: 5% 10%; }
 
 .grey {
   background-color: #b0b0b0; }
+
+.team-row {
+  padding: 5rem 0; }
 
 .team-picture {
   border-radius: 100%;
@@ -7532,12 +7535,27 @@ p {
     padding: 2rem; }
 
   .team-picture {
-    max-width: 65% !important; } }
+    max-width: 65% !important; }
+
+  .team-row {
+    padding: 2rem 0; }
+
+  .team-title {
+    margin-top: -2.5rem; } }
 @media (min-width: 576px) {
   .cta {
     padding: 10rem; }
 
   .cta-text {
     line-height: 1.5; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  .cta {
+    padding: 3rem; }
+
+  .cta-text {
+    line-height: 1.4; } }
+@media (min-width: 992px) and (max-width: 1800px) {
+  .team-picture {
+    max-width: 50% !important; } }
 
 /*# sourceMappingURL=main.css.map */

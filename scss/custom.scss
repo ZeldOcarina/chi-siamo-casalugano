@@ -46,11 +46,15 @@ p {
 //team section
 
 .team-title {
-    padding: 5%;
+    padding: 5% 10%;
 }
 
 .grey {
     background-color: #b0b0b0;
+}
+
+.team-row {
+    padding: 5rem 0;
 }
 
 .team-picture {
@@ -59,7 +63,7 @@ p {
     max-width: 40%
 }
 
-// Medium devices (tablets, 768px and up)
+// Small devices (mobile, 576px and)
 @media (max-width: 576px) {
     p {
         font-size: 1.2rem;
@@ -80,7 +84,13 @@ p {
     .team-picture {
         max-width: 65% !important;
     }
+    .team-row {
+        padding: 2rem 0;
+    }
 
+    .team-title {
+        margin-top: -2.5rem;
+    }
 }
 
 @media (min-width: 576px) {
@@ -90,5 +100,22 @@ p {
     
     .cta-text {
         line-height: 1.5;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 992px) { 
+    .cta {
+        padding: 3rem;
+    }
+    .cta-text {
+        line-height: 1.4;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1800px) {
+    .team-picture {
+        max-width: 50% !important;
     }
 }
