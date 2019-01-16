@@ -7521,6 +7521,9 @@ p {
   width: auto;
   max-width: 40%; }
 
+a:hover {
+  color: #cf171f !important; }
+
 @media (max-width: 576px) {
   p {
     font-size: 1.2rem; }
