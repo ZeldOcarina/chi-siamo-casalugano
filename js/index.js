@@ -49,5 +49,14 @@ var waypoint3 = new Waypoint({
     offset: 400
 });
 
+// navbar JS
+
+$(function () {
+    $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+    });
+});
+
 
 

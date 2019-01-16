@@ -28,6 +28,11 @@ p {
     font-size: 1.5rem;
 }
 
+//navbar
+
+.logo {
+    height: 80px;
+}
 
 //header section
 
@@ -94,6 +99,9 @@ a:hover {
 
     .team-title {
         margin-top: -2.5rem;
+    }
+    .logo {
+        height: 60px;
     }
 }
 

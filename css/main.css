@@ -7499,6 +7499,9 @@ h5 {
 p {
   font-size: 1.5rem; }
 
+.logo {
+  height: 80px; }
+
 .big-header {
   background-image: url("../images/header-image.jpg");
   background-size: cover;
@@ -7544,7 +7547,10 @@ a:hover {
     padding: 2rem 0; }
 
   .team-title {
-    margin-top: -2.5rem; } }
+    margin-top: -2.5rem; }
+
+  .logo {
+    height: 60px; } }
 @media (min-width: 576px) {
   .cta {
     padding: 10rem; }
